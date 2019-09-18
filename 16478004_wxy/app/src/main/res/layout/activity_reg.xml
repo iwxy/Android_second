@@ -18,7 +18,7 @@
         android:textSize="25sp"
         android:gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Sign in"/>
+        android:text="Sign up"/>
 
     <TextView
         android:layout_width="250dp"
@@ -58,9 +58,18 @@
         android:background="@drawable/shape1"
         android:layout_marginTop="30dp"
         android:layout_marginHorizontal="30dp"
-        android:hint="sign in"
+        android:hint="sign up"
         android:textSize="25dp"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="Sign in"
+        android:textSize="20dp"
+        android:textColor="#FF00FF"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
 
 
 
