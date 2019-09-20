@@ -15,49 +15,50 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
+        android:textSize="23sp"
         android:gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="6dp"
         android:text="Sign up"/>
 
     <TextView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
         android:background="@mipmap/login"
         android:gravity="center"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="15dp"/>
+
 
 
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="53dp"
         android:gravity="center"
         android:hint="username"
         android:background="@drawable/shape"
-        android:layout_marginTop="30dp"
-        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="65dp"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:inputType="textPassword"
-        android:layout_height="60dp"
+        android:layout_height="53dp"
         android:gravity="center"
         android:hint="password"
         android:background="@drawable/shape"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="65dp"
         android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="53dp"
         android:background="@drawable/shape1"
-        android:layout_marginTop="30dp"
-        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="65dp"
         android:hint="sign up"
         android:textSize="25dp"/>
 
@@ -66,10 +67,59 @@
         android:layout_height="wrap_content"
         android:autoLink="all"
         android:text="Sign in"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:textColor="#FF00FF"
         android:layout_marginTop="15dp"
         android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="45dp"
+        android:layout_marginHorizontal="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="以其他方式注册"
+        android:textSize="17dp"
+        android:paddingLeft="40dp"
+        android:textColor="#363636"
+        android:paddingTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@mipmap/weixin"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@mipmap/QQ"
+            android:layout_weight="1"
+            android:layout_marginRight="28dp"
+            android:layout_marginLeft="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@mipmap/weibo"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="40dp"/>
+
+    </LinearLayout>
 
 
 
