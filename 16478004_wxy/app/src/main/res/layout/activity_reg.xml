@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:orientation="vertical"
@@ -10,6 +10,7 @@
     android:paddingTop="?attr/actionBarSize"
     tools:context=".RegActivity"
     android:background="@mipmap/timg">
+
 
 
     <TextView
@@ -54,6 +55,7 @@
         android:textSize="20sp" />
 
     <Button
+        android:id="@+id/signUp"
         android:layout_width="match_parent"
         android:layout_height="53dp"
         android:background="@drawable/shape1"
@@ -63,6 +65,7 @@
         android:textSize="25dp"/>
 
     <TextView
+        android:id="@+id/signIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autoLink="all"
@@ -75,7 +78,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="#FFFFFF"
+        android:background="#FCFAFA"
         android:layout_marginTop="45dp"
         android:layout_marginHorizontal="25dp"/>
 
@@ -106,7 +109,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:background="@mipmap/QQ"
+            android:background="@mipmap/qq"
             android:layout_weight="1"
             android:layout_marginRight="28dp"
             android:layout_marginLeft="28dp"/>
