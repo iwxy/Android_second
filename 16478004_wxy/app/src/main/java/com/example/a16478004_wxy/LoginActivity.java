@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
                 EditText password=findViewById(R.id.password);
                 String name=username.getText().toString();
                 String ps=password.getText().toString();
-                Intent intent=new Intent(LoginActivity.this,WeixinActivity.class);
+                Intent intent=new Intent(LoginActivity.this,DiancanActivity.class);
                 Bundle bundle=new Bundle();
                 bundle.putString("name",name);
                 bundle.putString("password",ps);
