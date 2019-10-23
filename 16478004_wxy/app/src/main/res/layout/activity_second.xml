@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bookbackground2"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FF5722"
+        android:layout_marginBottom="20dp"
+        android:text="书籍信息" />
+
+    <TextView
+        android:id="@+id/show_bid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#9C27B0"
+        android:layout_marginBottom="20dp"
+        android:hint="书ID"/>
+
+    <TextView
+        android:id="@+id/show_bname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#9C27B0"
+        android:layout_marginBottom="20dp"
+        android:hint="书名"/>
+
+    <TextView
+        android:id="@+id/show_aid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#9C27B0"
+        android:layout_marginBottom="20dp"
+        android:hint="作者ID"/>
+
+    <TextView
+        android:id="@+id/show_aname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#9C27B0"
+        android:layout_marginBottom="20dp"
+        android:hint="作者名"/>
+
+    <Button
+        android:id="@+id/btn_gotobaidu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/littegreenbutton"
+        android:layout_marginBottom="20dp"
+        android:text="前往百度" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/littegreenbutton"
+        android:text="拨打10086" />
+
+</LinearLayout>
